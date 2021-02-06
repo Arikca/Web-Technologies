@@ -1,0 +1,21 @@
+1. Insatl git for you system.
+website link: http://git-scm.com/
+
+2. Initialize git in the new project: git init
+
+3. Then the process can be didvide into 4 columns
+Untracked files, Unstaged Changes, Staged Changes, Commits
+
+**use "git status" to check the status of your dierectory, i.e it shows which files are tracked, untracked etc.
+
+  3.1 Untracked files
+      By default git won't track the newly added files , we need to tell git to track the files.
+      So when any file is added to the project it won't be tracked and fall under untracked files category.
+      
+  3.2 use command "git add filesname"  or "git add ."(if we want ot add all the files) to bring the files from untracked files zone to staged changes, the files in the staged changes are to be commited in the next step
+  
+  3.3 use "git commit" to commit the files from staged changes, we get a new commit id
+  
+  3.4 when we make a changes in a file that git is already tracking, it comes in unstaged changes, again we need to get it to the staged changes category.
+  
+      
